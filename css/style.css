@@ -705,9 +705,21 @@ li {
     margin-right: 0;
     margin-left: 0.25rem;
   }
+
 }
 
 @media only screen and (max-width: 540px) {
+  .brand_item img {
+    transition: all 0.6s;
+    width: 100px;
+    height: 25px;
+    object-fit: contain;
+  }
+
+  .roomy-40 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   h1 {
     font-size: 30px;
   }
